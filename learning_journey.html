@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Journey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <a class="links" href="index.html">genesis argueta</a>
+        </div>
+        
+        <div>
+            <ul class="nav-links">
+                <li><a href="#topic-1">ml</a></li>
+                <li><a href="#topic-2">fintech</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id ="hamburger-nav">
+        <div class ="logo">Genesis Argueta</div>
+       
+            <div class="hamburger-menu">
+            <div class="hamburger-icon"onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                    <li><a href="#topic-1" onclick="toggleMenu()">ML</a></li>
+                    <li><a href="#topic-2" onclick="toggleMenu()">fintech</a></li>
+            </div>
+        </div> 
+    </nav>  
+
+    <div>
+        <p style="margin-left:10%; margin-right: 10%;">
+            Hey! The purpose of this section is to showcase my exploration and growth in Computer Science, with a focus on its mathematical aspects. I'm documenting my journey to discover what interests me in this field. 
+        </p>
+    </div>
+
+    <section id="topic-1" class="learning-journey-container">
+        <h1>ML</h1>
+        <p>
+            I became more interested in ML once I began my research summer experience with the CVRL at ND. I was doing data preprocessing and some web development, but I wanted to gain more experience with deep learning.
+        </p>
+        <br>
+        <ol>
+            <li style="list-style-type:none">
+            <a class="links" href="<ol>
+                <li style="list-style-type:none">
+                <a class="links" href="https://github.com/g3n3s1s-a/MeowNet">MeowNet</a>
+            <p class="date"> July 23, 2024</p>
+            <p>
+               <i>Developed a custom CNN similar to VGG, achieving 91% accuracy in classifying 12 cat breeds using PyTorch and custom datasets.</i>
+            </p>
+            </li>
+        </ol>
+        <br>
+        <ol>
+            <li style="list-style-type:none">
+            <a class="links" href="https://github.com/g3n3s1s-a/deep_learning_progress/tree/main/learning_pytorch">Learning PyTorch</a>
+            <p class="date"> June 23, 2024</p>
+            <p>
+               <i>Developed foundational PyTorch skills by creating a neural network for the MNIST dataset and a convolutional neural network (CNN) for the FashionMNIST dataset</i>
+            </p>
+            </li>
+        </ol>
+        <br>
+        <ol>
+            <li style="list-style-type:none">
+            <a class="links" href="https://github.com/g3n3s1s-a/deep_learning_progress/tree/main/mnist_from_scratch">MNIST from scratch</a>
+            <p class="date"> June 18, 2024</p>
+            <p>
+               <i>Neural network basics by only using numpy and math.</i>
+            </p>
+            </li>
+        </ol>
+        </section>
+        <section id="topic-2">
+            <h1>Fintech</h1>
+            <p>
+                Just by curiousity. 
+            </p>
+            <br>
+            <ol>
+                <li style="list-style-type:none">
+                <a class="links" href="https://github.com/g3n3s1s-a/credit_card_fraud_detection">Credit Card Fraud Detection</a>
+                <p class="date"> June 2, 2024</p>
+                <p>
+                   <i>Using a dataset from Kaggle, experiemented with 5 different models with at least 95% accuracy</i>
+                </p>
+            </ol>
+        </section>
+
+    </div>
+
+</body>
+</html>

@@ -5,6 +5,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body {
     font-family:"Poppins", sans-serif;
@@ -46,10 +47,10 @@ a{
     text-decoration-color: white;
 }
 a:hover{
-    color: rgb(75,0,130);
+    color: rgb(229, 0, 83);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(75,0,130);
+    text-decoration-color: rgb(229, 0, 83);
     
 }
 .logo{
@@ -214,11 +215,11 @@ section{
     cursor:pointer;
 }
 .btn-color-2:hover{
-    background: rgb(75,0,130);
+    background: rgb(229, 0, 83);
     color:white;
 }
 .btn-color-1:hover{
-    background: rgb(75,0,130);
+    background: rgb(229, 0, 83);
     color:white;
 }
 .btn-color-2{
@@ -393,4 +394,16 @@ footer{
 footer p{
     text-align: center;
 
+}
+/* learning journey*/
+.links:hover{
+    text-decoration: none;
+}
+.date{
+    margin:0%;
+    float:right;
+    color: #666;
+}
+.learning-journey-container{
+    height:auto;
 }
